@@ -23,7 +23,6 @@ function deepestChild() {
   var next = [];
   
   while (current) {
-    //console.log(current)
     /**
     if ((typeof current !== 'undefined' && current.length > 0) && (current.textContent === 'boo!')) {
       return current
