@@ -13,6 +13,6 @@ function increaseRankBy(n) {
   
   for (let i=0; i < listLength; i++) {
     num = parseInt(list[i].innerHTML)
-    list[i].innerHTML = (num + n).toS
+    list[i].innerHTML = (num + n).toString()
   }
 }
