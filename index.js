@@ -16,3 +16,5 @@ function increaseRankBy(n) {
     list[i].innerHTML = (num + n).toString()
   }
 }
+
+function 
