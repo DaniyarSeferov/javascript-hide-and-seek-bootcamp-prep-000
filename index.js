@@ -18,5 +18,10 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  
+  var elem = document.querySelector()
+  if (Array.isArray(current)) {
+      for (let i = 0; i < current.length; i++) {
+        next.push(current[i])
+      }
+    }
 }
