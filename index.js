@@ -23,11 +23,11 @@ function deepestChild() {
   var next = [];
   
   while (current) {
-    /**
+    
     if ((typeof current !== 'undefined' && current.length > 0) && (current.textContent === 'boo!')) {
       return current
     }
-    **/
+    
     
     if (Array.isArray(current)) {
       for (let i = 0; i < current.length; i++) {
