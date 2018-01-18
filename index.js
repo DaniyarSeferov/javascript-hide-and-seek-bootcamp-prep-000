@@ -23,7 +23,7 @@ function deepestChild() {
   let next = []
   
   while (current) {
-    if (criteriaFn(current)) {
+    if (current.innerHTML === '') {
       return current
     }
     if (Array.isArray(current)) {
