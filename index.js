@@ -18,16 +18,16 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  var current = document.querySelector('div#grand-node');
+  var current = document.querySelectorAll('div#grand-node div');
   var next = [];
-  
+
   while (current) {
-    
-    if (current.textContent === 'boo!') {
+
+    if (!(current instanceof NodeList) && !next.length) {
       return current
     }
-    
-    
+
+
     if (current instanceof NodeList) {
       for (let i = 0; i < current.length; i++) {
         next.push(current[i])
