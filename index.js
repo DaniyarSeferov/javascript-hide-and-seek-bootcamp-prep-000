@@ -7,5 +7,5 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  var list = document.getFirstSelectorAll()
+  var list = document.getSelectorAll()
 }
